@@ -32,3 +32,24 @@ struct s_list
     98
     109
     42
+    
+    or can use a while loop in a function
+    
+    void  aff_list(struct s_list *begin)
+    {
+      if (!begin)
+      return ;
+      while
+      {
+        printf("%d\n", begin->i);
+        begin = begin->next;
+       }
+      }
+      
+      and call the function in int main as
+      
+      aff_list(begin)
+      after assigning values and addresses
+      
+      note that the first printf("%d\n", begin->i); will print the value at elem1. There is no value at begin.
+      
